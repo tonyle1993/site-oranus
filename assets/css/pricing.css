@@ -1,0 +1,44 @@
+/* PRICING */
+
+.container {
+  margin-top: 64px;
+  background-color: #f0e3e3;
+  background-clip: content-box;
+}
+
+.overlay {
+  position: relative;
+  background: url('../img/home/img4.png') center top / 100% 45% no-repeat;
+  background-origin: content-box;
+}
+
+.panel {
+  position: relative;
+  padding-top: 30px;
+  left: 50%;
+  width: 96%;
+  transform: translateX(-52%);
+  background-color: #fff;
+  background-clip: content-box; 
+  box-shadow: rgb(0 0 0 / 10%) 0px 11px 10px;
+}
+
+.panel .panel__container {
+  padding: 0 16px;
+}
+
+.panel .section__pricing-header {
+  display: flex;
+}
+
+.panel .section__pricing-header-info {
+  flex: 1;
+}
+
+.panel .section__pricing-header-img {
+  flex: 1;
+}
+
+.panel .section__pricing-header-img > img {
+  width: 100%;
+}
