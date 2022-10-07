@@ -16,11 +16,12 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
 <body>
-  <header class="header grid px-146">
+  <header class="header grid px-146 m-px-16">
     <div class="logo">
       <div class="logo__icon"></div>
       <div class="logo__info">
@@ -31,27 +32,17 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item"><a href="#" class="nav__list-item-link">Ourwork</a></li>
-        <li class="nav__list-item"><a href="#" class="nav__list-item-link">Pricing</a></li>
+        <li class="nav__list-item"><a href="./pages/pricing.html" class="nav__list-item-link">Pricing</a></li>
         <li class="nav__list-item"><a href="#" class="nav__list-item-link">Business</a></li>
         <li class="nav__list-item"><a href="#" class="nav__list-item-link">Contact</a></li>
         <li class="nav__list-item"><a href="#" class="nav__list-item-link">Jobs.</a></li>
-        <li class="nav__list-item"><a href="#"
-            class="nav__list-item-link btn btn--large text--white">Contact&nbsp;us</a>
-        </li>
       </ul>
+      <button class="btn btn--large m-btn--small">Contact&nbsp;us</button>
     </nav>
   </header>
-  <div class="container grid px-146">
+  <div class="container grid px-146 m-px-16">
     <section class="section mt-48">
       <div class="section__header">
-        <div class="section__header-info section__header-info--left">
-          <p class="section__line">Work<span class="section__line--separate"></span></p>
-          <h2 class="section__heading dot-end">Make huge moves</h2>
-          <p class="section__sub-heading mt-16">Creating a next-generation money-transfer service to transform the way
-            money
-            moves.</p>
-          <button class="btn btn--white mt-16">Contact us</button>
-        </div>
         <div class="section__header-content">
           <div class="section__header-img-list">
             <img class="section__header-img-item section__header-img-item--collapse" src="./assets/img/home/img1.png"
@@ -65,7 +56,15 @@
             <div class="section__header-pagination-item"></div>
           </div>
         </div>
-        <p class="section__line mt-48"><span class="section__line--separate"></span> Work</p>
+        <div class="section__header-info section__header-info--left">
+          <p class="section__line">Work<span class="section__line--separate"></span></p>
+          <h2 class="section__heading dot-end">Make huge moves</h2>
+          <p class="section__sub-heading mt-16">Creating a next-generation money-transfer service to transform the way
+            money
+            moves.</p>
+          <button class="btn btn--white mt-16 m-center m-btn--blue">Contact us</button>
+        </div>
+        <p class="section__line mt-48 m-hide"><span class="section__line--separate"></span> Work</p>
       </div>
     </section>
     <section class="section mt-48">
@@ -234,7 +233,7 @@
       </div>
     </section>
   </div>
-  <div class="footer grid px-146">
+  <div class="footer grid px-146 m-px-16">
     <div class="footer__container">
       <div class="footer__brand">
         <div class="logo">
