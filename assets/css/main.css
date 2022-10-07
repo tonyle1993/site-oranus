@@ -1,32 +1,38 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  z-index: 9999;
+  background-color: #fff;
 }
 
-.header .header__home {
+.logo {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.header .header__logo {
+.logo .logo__icon {
   width: 45px;
   height: 45px;
   background: url('../img/logo2x.png') center center / contain no-repeat;
 }
 
-.header .header__info {
+.logo .logo__info {
   display: flex;
   flex-flow: column;
 }
 
-.header .header__brand-name {
+.logo .logo__brand-name {
   font-size: 2.2rem;
   font-weight: 600;
 }
 
-.header .header__brand-name > span {
+.logo .logo__brand-name > span {
   color: var(--secondary-color);
 }
 
@@ -49,7 +55,7 @@
 }
 
 .container {
-  margin-top: 45px;
+  margin-top: 128px;
 }
 
 .section {
@@ -253,7 +259,7 @@
 
 .section__cotainer-table-product tr,
 .section__cotainer-table-product td {
-  border-top: 1px  solid var(--secondary-color);
+  /* border-top: 1px  solid var(--secondary-color); */
   border-bottom: 1px  solid var(--secondary-color);
   padding: 16px;
 }
@@ -289,4 +295,44 @@
 .section .section__container-contact {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  margin-top: 64px;
+}
+
+.footer .footer__container {
+  display: flex;
+  padding: 32px;
+  background-color: #eee8e8;
+}
+
+.footer .footer__brand {
+  flex: 1;
+}
+
+.footer .footer__contact {
+  flex: 1;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+ 
+.footer .footer__copyright {
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: var(--text-white-color);
+  padding: 16px;
+}
+
+.footer .footer__company {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  padding: 8px 0;
+  width: 235px;
+  max-width: 100%;
+}
+
+.footer .footer__social-icons {
+  font-size: 2.4rem;
+  color: var(--secondary-color);
 }
