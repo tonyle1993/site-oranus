@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #00A3FF;
+  --text-white-color: #fff;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+  /* font-family: 'Bahnschrift', sans-serif; */
+}
+
+.grid {
+  width: 1440px;
+  max-width: 100%;
+}
+
+.pad-x-146 {
+  padding-left: 146px !important;
+  padding-right: 146px !important;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  padding: 4px 24px;
+  color: var(--text-white-color);
+  border-radius: 8px;
+}
+
+.btn--large {
+  padding: 16px 54px;
+  border-radius: 7px;
+}
+
+.btn--white {
+  background-color: #fff;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 16px 26px;
+}
+
+.text--white {
+  color: var(--text-white-color) !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.mt-128 {
+  margin-top: 128px !important;
+}
