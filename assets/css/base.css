@@ -23,9 +23,13 @@ html {
   margin-right: auto;
 }
 
-.pad-x-146 {
+.px-146 {
   padding-left: 146px !important;
   padding-right: 146px !important;
+}
+
+.pl-16 {
+  padding-left: 16px !important;
 }
 
 .btn {
@@ -50,6 +54,11 @@ html {
 
 .text--white {
   color: var(--text-white-color) !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .mt-16 {
@@ -78,6 +87,6 @@ html {
 
 .dot-end::after {
   content: ".";
-  display: inline-block;
+  /* display: inline-block; */
   color: var(--secondary-color);
 }

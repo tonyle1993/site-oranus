@@ -62,8 +62,6 @@
 
 .section .section__header-info {
   width: 272px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .section .section__header-info--left {
@@ -161,7 +159,7 @@
 }
 
 .section .section__container {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 .section .section__container-info-list {
@@ -243,4 +241,52 @@
   font-size: 1.4rem;
   line-height: 1.4;
   color: #5E688B;
+}
+
+.section .section__cotainer-table-product {
+  width: 100%;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  border-spacing: 20px 0;
+  border-collapse: separate;
+}
+
+.section__cotainer-table-product tr,
+.section__cotainer-table-product td {
+  border-top: 1px  solid var(--secondary-color);
+  border-bottom: 1px  solid var(--secondary-color);
+  padding: 16px;
+}
+
+.section .form__question {
+  display: flex;
+  flex-flow: column;
+  width: 557px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  gap: 10px;
+}
+
+.section .form__question_label {
+  font-weight: 600;
+}
+
+.section .form__question_label:first-child {
+  color: var(--secondary-color);
+}
+
+.section .form__question-input {
+  border: none;
+  border-bottom: 1px solid #C5CFF3;
+  padding: 8px;
+}
+
+.section .form__question-input:focus-visible {
+  outline: auto 1px var(--secondary-color);
+}
+
+.section .section__container-contact {
+  display: flex;
+  justify-content: center;
 }
