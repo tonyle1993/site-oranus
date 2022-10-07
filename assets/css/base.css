@@ -33,6 +33,7 @@ html {
   padding: 4px 24px;
   color: var(--text-white-color);
   border-radius: 8px;
+  border: none;
 }
 
 .btn--large {

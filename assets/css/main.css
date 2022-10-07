@@ -62,21 +62,24 @@
 
 .section .section__header-info {
   width: 272px;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section .section__header-info--left {
+  position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 } 
 
 .section .section__header-info--right {
+  position: absolute;
   right: 0;
   bottom: 0;
   background-color: #fff;
   padding: 16px;
-} 
+}  
 
 .section .section__header-info-img {
   width: 100%;
@@ -207,4 +210,37 @@
   font-size: 1.4rem;
   color: #5E688B;
   line-height: 1.4;
+}
+
+.section .section__container-teams {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.section .member {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.section .member__avatar {
+
+}
+
+.section .member__name {
+  font-size: 1.6rem;
+}
+
+.section .member__position {
+  font-size: 1.2rem;
+}
+
+.section .member__desc {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #5E688B;
 }
